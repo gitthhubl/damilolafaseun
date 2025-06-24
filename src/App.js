@@ -37,7 +37,7 @@ class App extends Component {
     const {portfolioData = {}} = this.state;
 
     return (
-      <div style={{backgroundColor: '1px solid red'}} className="App">
+      <div className="App">
         <Header data={portfolioData.main} />
         <About data={portfolioData.main} />
         <Experience data={portfolioData.resume} />

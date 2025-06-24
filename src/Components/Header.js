@@ -17,7 +17,7 @@ class Header extends Component {
 
 
     return (
-      <header id="home">
+      <header id="home" style={{height: '100vh'}}>
 
         <nav id="nav-wrap">
 

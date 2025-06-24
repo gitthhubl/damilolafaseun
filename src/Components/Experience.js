@@ -58,7 +58,7 @@ export class Experience extends Component {
             return (
                 <Card.Grid style={gridStyle}>
                   <div>{s.split("|")[0]}</div>
-                  <img src={icon} />
+                  <img src={icon} alt={iconUrlAlt} />
                 </Card.Grid>
             )}
           )}
